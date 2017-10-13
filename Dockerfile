@@ -43,5 +43,5 @@ ADD ./NAE/nvidia.cfg /etc/NAE/nvidia.cfg
 ADD ./NAE/AppDef.json /etc/NAE/AppDef.json
 #COPY ./NAE/screenshot.png /etc/NAE/screenshot.png
 
-#CMD /usr/local/scripts/start.sh
+CMD /usr/local/scripts/start.sh
 CMD /usr/local/scripts/update_drivers.sh
